@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // Update the visitor count in the DOM
         const visitorCountElement = document.querySelector(".visitor-count p");
-        visitorCountElement.textContent = `Visitor count: ${visitCount}`;
+        visitorCountElement.textContent = `Visit count: ${visitCount}`;
     } catch (error) {
-        console.error("Error fetching visitor count:", error);
+        console.error("Error fetching visit count:", error);
     }
 });
